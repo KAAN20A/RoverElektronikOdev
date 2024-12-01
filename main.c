@@ -137,7 +137,7 @@ int main(void)
           HAL_GPIO_WritePin(GPIOD, GPIO_PIN_11, 1);
       }
      else if(data[1]=='2'){
-          HAL_GPIO_TogglePinGPIOD,GPIO_PIN_11);
+          HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_11);
       }
       else{
 
